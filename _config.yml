@@ -4,7 +4,7 @@ subtitle: Van Der Molen Moris
 email: youremailaddress@gmail.com
 description: Johan's personal website
 baseurl: # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: jvandermolen.com # the base hostname & protocol for your site
 author: Johan
 street_address: 1234 Somewhere Road
 city: Nashville
