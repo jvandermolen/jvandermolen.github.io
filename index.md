@@ -3,7 +3,7 @@ layout: home
 title: Home
 landing-title: 'Hi, my name is Johan'
 description: null
-image: null
+image: assets/images/banner.jpg
 author: null
 ---
 
