@@ -15,7 +15,7 @@ phone:  0131 650 5060
 
 # Homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 4
 
 # Social settings
 500px_url:
