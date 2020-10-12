@@ -1,36 +1,49 @@
 # Site settings
-title: Johan
-subtitle: Van Der Molen Moris
-email:  J.Van-Der-Molen-Moris@sms.ed.ac.uk 
-description: PhD Student
-baseurl: # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author: Johan
-street_address: James Clerk Maxwell Building
-city: Edinburgh
-state: Scotland
-zip_code:
-country:
-phone:  0131 650 5060
+title: 'Demo for jekyll-remote-theme with theme jekyll-uno'
+description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll - used via jekyll-remote-theme'
+url: ''
+baseurl: '/jekyll-uno-remote-theme-demo'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-# Homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 4
+remote_theme: matthiaslischka/jekyll-uno
 
-# Social settings
-500px_url:
-facebook_url:
-github_url: https://github.com/
-gitlab_url:
-googleplus_url: https://plus.google.com/
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/johanflojan
+author:
+  name: 'Matthias Lischka'
+  #email: 
+  #twitter_username: 
+  #facebook_username: 
+  github_username: matthiaslischka
+  #linkedin_username:  
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
+highlighter: rouge
 
 sass:
-  style: compressed
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'vendor']
