@@ -1,6 +1,6 @@
 # Site settings
-title: 'Demo for jekyll-remote-theme with theme jekyll-uno'
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll - used via jekyll-remote-theme'
+title: 'Johan van der Molen Moris'
+description: 'PhD Statistics'
 url: ''
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
@@ -13,7 +13,7 @@ author:
   #email: 
   #twitter_username: 
   #facebook_username: 
-  github_username: matthiaslischka
+  github_username: jvandermolen
   #linkedin_username:  
 
 defaults:
