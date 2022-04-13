@@ -9,7 +9,10 @@ baseurl: '/jekyll-uno'
 
 author:
   name: 'Josh Gerdes'
+  institution: 'Institution'
   email: josh@joshgerdes.com
+  institutional_website: 'https://www.ph.ed.ac.uk/people/peter-higgs'
+  google_scholar: 6tmn5WoAAAAJ
   twitter_username: joshgerdes
   facebook_username: joshgerdes
   github_username:  joshgerdes
