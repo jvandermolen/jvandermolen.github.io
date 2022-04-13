@@ -9,12 +9,12 @@ baseurl: ''
 
 author:
   name: 'Johan van der Molen Moris'
-  email: j.van-der-molen@sms.ed.ac.uk
-  #twitter_username:
+  email: johan.vdmolen@mrc-bsu.cam.ac.uk
+  twitter_username:johan_vdmolen
   #facebook_username:
   github_username:  jvandermolen
   #linkedin_username: 
-  interests: [Bayesian nonparametrics, nonregular models, machine learning]
+  interests: [Bayesian Nonparametrics, Biostatistics, Machine Learning]
 
 defaults:
   -
