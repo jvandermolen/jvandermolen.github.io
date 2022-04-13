@@ -9,7 +9,10 @@ baseurl: ''
 
 author:
   name: 'Johan van der Molen Moris'
+  institution: 'U. of Cambridge'
   email: johan.vdmolen@mrc-bsu.cam.ac.uk
+  institutional_website: 'https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/h-to-m/johan-van-der-molen-moris/'
+  google_scholar: ht5TXWwAAAAJ
   twitter_username: johan_vdmolen
   #facebook_username:
   github_username:  jvandermolen
